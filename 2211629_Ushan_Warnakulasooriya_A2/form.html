@@ -5,49 +5,63 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link to JavaScript file -->
   <script type="text/javascript" src="index.js"></script>
+  <!-- Link to CSS file -->
   <link rel="stylesheet" href="form.css">
   <title>Register for Miha Institute</title>
 </head>
 
 <body>
 
+  <!-- Form container -->
   <div class="container">
+    <!-- Form header -->
     <h1>Create an Account</h1>
     <table>
+      <!-- Login form -->
       <form id="login-form">
+        <!-- Username input -->
         <tr>
           <td><label for="username-input">Username:</label></td>
           <td><input type="text" id="username-input" name="username"></td>
         </tr>
+        <!-- Email input -->
         <tr>
           <td><label for="email-input">Email:</label></td>
           <td><input type="email" id="email-input" name="email"></td>
         </tr>
+        <!-- Password input -->
         <tr>
           <td><label for="password-input">Password:</label></td>
           <td><input type="password" id="password-input" name="password"></td>
         </tr>
+        <!-- Name with initials input -->
         <tr>
           <td><label for="name-input">Name with initials:</label></td>
           <td><input type="text" id="name-input" name="name_with_initials"></td>
         </tr>
+        <!-- Profile picture input -->
         <tr>
           <td><label for="img-input">Profile Picture:</label></td>
           <td><input type="file" id="img-input" name="profile_picture"></td>
         </tr>
+        <!-- City input -->
         <tr>
           <td><label for="city-input">City:</label></td>
           <td><input type="text" id="city-input" name="city"></td>
         </tr>
+        <!-- Academic year input -->
         <tr>
           <td><label for="academic-year-input">Academic year:</label></td>
           <td><input type="text" id="academic-year-input" name="academic_year"></td>
         </tr>
+        <!-- Full name input -->
         <tr>
           <td><label for="full-name-input">Full name:</label></td>
           <td><input type="text" id="full-name-input" name="fullname"></td>
         </tr>
+        <!-- Submit button -->
         <tr>
           <td colspan="2" style="text-align:center;"><button type="submit" id="submit-button"
               onclick="handleSubmit(event),Logout()">Register Now</button></td>
@@ -55,7 +69,6 @@
       </form>
     </table>
   </div>
-
 
 </body>
 

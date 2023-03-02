@@ -1,8 +1,9 @@
+/* Set margin to 0 for the body */
 body {
   margin: 0;
 }
 
-/* Center the container */
+/* Center the container and set some styles */
 .container {
   width: 50%;
   margin: auto;
@@ -17,7 +18,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-/* Style the table */
+/* Style the table to take up 100% of the container */
 table {
   width: 100%;
 }
@@ -55,6 +56,7 @@ button[type=submit] {
   font-size: 16px;
 }
 
+/* Style the submit button when hovered over */
 button[type=submit]:hover {
   background-color: #0C5BA1;
 }
@@ -72,7 +74,6 @@ h1 {
   text-align: center;
   font-size: 28px;
   margin-bottom: 20px;
-
 }
 
 /* Style the form error messages */

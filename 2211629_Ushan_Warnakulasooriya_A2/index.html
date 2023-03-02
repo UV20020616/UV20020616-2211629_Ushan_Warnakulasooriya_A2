@@ -5,38 +5,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Importing the CSS stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <!-- Importing the JavaScript file -->
     <script type="text/javascript" src="index.js"></script>
     <title>Miha Institute - log in or sign up</title>
 </head>
 
 <body>
-
+    <!-- Main container for the login/sign-up form -->
     <div class="container">
-
+        <!-- Upper section of the container containing the title -->
         <div class="upper-c">
             <h1 class="title">MIHA INSTITUTE</h1>
         </div>
-
+        <!-- Lower section of the container containing the login/sign-up form and related information -->
         <div class="lower-c">
-
+            <!-- Left section containing the login form -->
             <div class="lower-1">
+                <!-- Username input field -->
                 <input type="text" placeholder="Username" class="textf1" id="username" required>
+                <!-- Password input field -->
                 <input type="password" placeholder="Password" class="passf1" id="password" required>
+                <!-- Checkbox for remembering the username -->
                 <label class="textf2"><input type="checkbox">Remember username</label>
+                <!-- Button to submit the login form -->
                 <button type="submit" class="btnsub" onclick="LogIn()">Log in</button>
             </div>
+            <!-- Right section containing sign-up form and related information -->
             <div class="lower-2">
+                <!-- Text link for forgotten usernames/passwords -->
                 <p class="p1">Forgotten your username or password?</p>
+                <!-- Information about enabling cookies -->
                 <p class="p2">Cookies must be enabled in your browser</p>
+                <!-- Information about guest access for some courses -->
                 <p class="p3">Some courses may allow guest access</p>
+                <!-- Button to create a new account -->
                 <button type="submit" class="btncre" onclick="CreateAcLogin()">Create a new account</button>
             </div>
         </div>
-
     </div>
+    <!-- Footer section -->
     <div class="footer">Designed and Developed by: Ushan Warnakulasooriya</div>
-
 </body>
 
 </html>
