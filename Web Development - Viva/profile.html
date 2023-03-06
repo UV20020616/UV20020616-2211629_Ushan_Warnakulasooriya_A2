@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profile.css">
+    <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@44659d9/css/all.min.css" rel="stylesheet"
+    type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>GameHaven - Profile</title>
+</head>
+<body>
+    <! -- Navigation Bar -->
+
+    <nav class="navbar">
+        <div class="container">
+            <h1><a class="logo" href="index.html">GameHaven</a></h1>
+
+            <div class="pg-div">
+                <ul class="pg-ul">
+                    <li><a href="#homepage" class="active">HOMEPAGE</a></li>
+                    <li><a href="#esports">ESPORTS</a></li>
+                    <li><a href="#reviews">REVIEWS</a></li>
+                    <li><a href="#news">NEWS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                </ul>
+            </div>
+
+            <div class="navbar-icons">
+                <ul>
+                    <li class="temp-hide-ico"><a id="twitter-ico" href=""><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li class="temp-hide-ico"><a id="fb-ico" href=""><i class="fa-brands fa-facebook"></i></a></li>
+                    <li class="temp-hide-ico"><a id="insta-ico" href=""><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li class="temp-hide-ico"><a id="yt-ico" href=""><i class="fa-brands fa-youtube"></i></a></li>
+                    <li class="temp-hide-ico"><a id="tiktok-ico" href=""><i class="fa-brands fa-tiktok"></i></a>
+                    </li>
+                    <li class="temp-hide-ico"><a id="vk-ico" href=""><i class="fa-brands fa-vk"></i></a></li>
+                    <li class="temp-hide-ico"><a id="discord-ico" href=""><i class="fa-brands fa-discord"></i></a>
+                    </li>
+                    <li><a href="javascript:void(0);" class="res-icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="topnav" id="myTopnav">
+        <ul>
+            <a href="#homepage" class="active-res" style="color: crimson;">HOMEPAGE</a>
+            <a href="#esports">ESPORTS</a>
+            <a href="#reviews">REVIEWS</a>
+            <a href="#news">NEWS</a>
+            <a href="#contact">CONTACT</a>
+            <a href="#about">ABOUT</a>
+
+        </ul>
+
+    </div>
+    
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+    
+    <div class="img-div"></div>
+
+</body>
+</html>
